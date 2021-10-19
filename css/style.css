@@ -1,0 +1,596 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+
+.col{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}  
+
+
+.btn{
+    display: inline-block;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btn-padd{
+    padding: 6px 14px;
+} 
+
+.btn-blue{
+    background-color: #0160ff;
+    color: white;
+}
+
+.btn-white{
+    color: #202020;
+    border: 1px solid #202020;
+}
+
+.btn-font{
+    font-size: 14px;
+}
+
+.btn:hover{
+    filter: saturate(50%);
+}
+
+/* HEADER */
+header{
+    height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.col-header-left {
+    width: 50%;
+}
+
+.col-header-right {
+    width: 50%;
+}
+
+.col-header-left{
+    text-align: left;
+}
+
+.col-header-right{
+    text-align: right;
+}
+
+nav{
+    width: 98%;
+    margin: auto;
+}
+
+.top-menu {
+    list-style-type: none;
+}
+
+.top-menu li{
+    display: inline-block;
+}
+
+.top-menu a{
+    text-decoration: none;
+    line-height: 70px;
+    margin: 0 20px;
+    color: black;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.top-menu a:hover{
+    border-bottom: 2px solid black;
+}
+
+header .logo{
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: #b3d0e7;
+    padding-top: 170px;
+}
+
+.jumbotron-container{
+    width: 80%;
+    margin: auto;
+}
+
+.jumbotron h1{
+    font-size: 70px;
+}
+
+.col-jumbo-left{
+    width: 35%;
+    padding: 55px 0 80px;
+}
+
+.col-jumbo-right{
+    width: 60%;
+    margin-left: 5%;
+    padding: 55px 0 80px;
+    position: relative;
+}
+
+.jumbotron-container p{
+    margin-bottom: 30px;
+    padding-right: 5px;
+    line-height: 1.7;
+}
+
+.jumbotron-container a{
+    margin-bottom: 15px;
+}
+
+.jumbotron-container .avvertenza{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.jumbotron-container .link-arrow{
+    color: black;
+    text-decoration: none;
+}
+
+.jumbotron-container .arrow{
+    font-size: 40px;
+}
+
+.img-jumbo{
+ position: absolute;
+ top: 50px;
+ left: 0;
+ height: 460px;
+ z-index: 1;
+}
+
+section{
+    padding-top: 150px;
+}
+
+
+.section-container{
+    width: 60%;
+    margin: auto;
+}
+
+section h2{
+    font-size: 38px;
+}
+
+.dropbox-business .opzioni{
+    display: inline-block;
+    margin: 50px 20px 20px 0;
+}
+
+.dropbox-business .fake-checkbox{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e2e2e5;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.dropbox-business .with-border{
+    border: 5px solid #0160ff;
+}
+
+
+.col-business{
+    width: 30%;
+    margin-top: 30px;
+    border: 1px solid #d2d2d5;
+    height: 1000px;
+}
+
+.dropbox-business .col-padded{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+.padd{
+    padding: 20px 0 0;
+}
+
+.dropbox-business .offerta-business{
+    border-bottom: 1px solid #d2d2d5;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.dropbox-business .contenuto-business{
+    padding: 20px 20px;
+}
+
+.contenuto-business h3{
+    font-size: 25px;
+}
+
+.dropbox-business .prezzo{
+    font-weight: 700;
+    padding: 18px 0 10px;
+}
+
+.dropbox-business .periodicità{
+    color: #75838f;
+    font-size: 14px;
+}
+
+.dropbox-business .btn-center{
+    padding: 30px 0 0;
+}
+
+.dropbox-business .btn-business{
+    width: 100%;
+    text-align: center;
+}
+
+.dropbox-business .link-business{
+    color: #176aff;
+}
+
+.dropbox-business .promo{
+    font-size: 14px;
+}
+
+.dropbox-business .promo::after {
+	display: block;
+	content: '';
+	width: 50px;
+	height: 1px;
+	background-color: #d2d2d5;
+	margin: 30px 0 0;
+}
+
+.dropbox-business .check{
+    color: #0562ff;
+}
+
+.dropbox-business .col-icone{
+    width: 10%;
+    font-size: 14px;
+    padding: 15px 5px 0;
+    text-align: right;
+}
+
+.dropbox-business .col-item{
+    width: 90%;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.dropbox-business .ultima-offerta{
+    margin-top: 50px;
+    border: 1px solid #d2d2d5;
+}
+
+.dropbox-business .contenuto-ultima-offerta{
+    padding: 20px;
+    position: relative;
+}
+
+.dropbox-business .contenuto-ultima-offerta h3{
+    padding: 0 0 15px;
+    font-size: 25px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .ufficio{
+    font-weight: 600;
+    padding: 0 0 15px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .soluzioni{
+    font-size: 14px;
+}
+
+.dropbox-business .contenuto-ultima-offerta .btn-ultima-offerta{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.dropbox-partner .col-foto, .dropbox-partner .col-partner-text{
+    width: 50%;
+}
+
+.dropbox-partner .col-partner-text{
+    padding: 35px;
+}
+
+.dropbox-partner .col-partner-text h3{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.dropbox-partner .col-partner-text p{
+    font-size: 15px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+
+.dropbox-operations .col-operations{
+    width: 30%;
+}
+
+.dropbox-operations .col-padded{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.dropbox-operations .row{
+    margin: 30px 0;
+}
+
+.dropbox-operations .text-underline{
+    text-decoration: underline;
+}
+
+.dropbox-operations p{
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+.dropbox-team .team-container{
+    width: 60%;
+    margin: auto;
+}
+
+.dropbox-team .team-container h2{
+    padding-right: 190px;
+}
+.dropbox-team .team-container p{
+    padding: 25px 0; 
+}
+
+.dropbox-team .link-clienti{
+    color: #176aff
+}
+
+
+.dropbox-team .row{
+    width: 100%;
+}
+
+.dropbox-team .col-box{
+    width: 200px;
+}
+
+.dropbox-team .col-text{
+    width: calc(100% - 800px);
+    background-color: #f5f5f5;
+    height: 400px;
+}
+
+.dropbox-team .box{
+    width: 200px;
+    height: 200px;
+}
+
+
+.dropbox-team .linea-designit::after{
+    display: block;
+	content: '';
+	width: 50px;
+	height: 1px;
+	background-color: #d2d2d5;
+	margin: 20px 0 0;
+}
+
+.dropbox-team .col-text-content{
+    width: 80%;
+    margin: auto;
+}
+
+.dropbox-team .col-text-content img{
+    width: 120px;
+    padding-top: 40px
+}
+
+.dropbox-team .col-text-content p{
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+
+
+.dropbox-team .svg-common{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    filter: invert(1);
+    padding: 50px 40px;
+}
+
+.dropbox-team .box-designit{
+    background-color: #a2d39b;
+}
+
+.dropbox-team .box-florida{
+    background-color: #0093ce; 
+}
+.dropbox-team .florida{
+    padding: 85px 40px;
+}
+
+.dropbox-team .box-arizona{
+    background-color: #61092b;;
+}
+
+.dropbox-team .box-topps{
+    background-color: #ff1b1c;
+}
+
+.dropbox-team .box-bicycle{
+    background-color: #d4001f;
+}
+
+.dropbox-team .box-planet{
+    background-color: #0e2381;
+}
+
+.dropbox-team .box-hearst{
+    background-color: #b3d0e7;
+}
+
+
+.dropbox-team .box-channel{
+    background-color: #ffd72f;
+}
+
+
+.dropbox-team .azienda{
+    background-color: #b3d0e7;
+    width: 100%;
+}
+
+.dropbox-team .col-azienda-text, .col-azienda-button{
+    width: 50%;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+}
+
+.dropbox-team .col-azienda-text h2{
+    color: #61092b;
+    font-size: 30px;
+}    
+
+.dropbox-team .col-azienda-button .btn-azienda{
+    display: inline-block;
+    background-color: white;
+    color: #313131;
+    padding: 5px 50px;
+}
+
+
+.dropbox-domande h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.dropbox-domande .row{
+    border-top: 1px solid #eaeaeb;
+}
+
+.dropbox-domande .last-row{
+    border-top: 1px solid #eaeaeb;
+    border-bottom: 1px solid #eaeaeb;
+}
+
+.dropbox-domande .col-domande{
+    width: 80%;
+    padding: 20px 0;
+}
+
+.dropbox-domande .col-freccia{
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.dropbox-domande .col-domande p{
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    margin-top: 150px;
+}
+
+.footer-container{
+    width: 70%;
+    margin: auto;
+}
+
+
+.footer-container .col-footer{
+    width: 20%;
+    padding-top: 100px;
+}
+
+footer h5{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li{
+    padding-bottom: 10px;
+}
+
+footer ul li a{
+    color: #e2e2e2;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer .footer-colonne::after{
+    display: block;
+	content: '';
+	width: 100px;
+	height: 1px;
+	background-color: #838383;
+	margin: 75px 0 0;
+}
+
+footer .lingua{
+    padding: 40px 0;
+}
+
+footer .lingua .globo{
+    color: #999999;
+}
+
+footer .lingua span{
+    color: #636363;
+    font-size: 13px;
+}
+
+footer .lingua .up-arrow{
+    color: #636363;
+    vertical-align: middle;
+    font-size: 13px;
+}
